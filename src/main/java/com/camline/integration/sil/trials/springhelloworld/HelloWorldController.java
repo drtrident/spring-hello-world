@@ -15,4 +15,9 @@ public class HelloWorldController {
     public String goodbye() {
         return "Goodbye Spring";
     }
+
+    @GetMapping("/test")
+    public String test() {
+        return "Some Test";
+    }
 }
