@@ -20,4 +20,9 @@ public class HelloWorldController {
     public String test() {
         return "Some Test";
     }
+
+    @GetMapping("/test2")
+    public String test2() {
+        return "Second Test";
+    }
 }
